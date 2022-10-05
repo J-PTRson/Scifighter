@@ -12,7 +12,7 @@ This is an *R* package. [*R*](https://www.r-project.org/) is required, [*RStudio
 
 ``` r
 install.packages("devtools")  
-devtools::install_github("J-PTRson/Scifighter")
+devtools::install_github("J-PTRson/Scifighter", build_vignettes = TRUE)
 ```
 
 After installing, attach the package in r using:
