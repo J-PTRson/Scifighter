@@ -31,4 +31,11 @@ Once you have loaded the library run the following command to start the game:
 gamestart()
 ```
 
+If you're having audio issues, then you can disable any sounds using:
+
+```r
+gamestart(nosound=TRUE)
+```
+
+
 Have fun!
