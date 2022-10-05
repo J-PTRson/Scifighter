@@ -1,0 +1,170 @@
+[
+  {
+      "name" : "hero",
+      "health" : "10",
+      "status" : "normal",
+      "vulnerable" : "existential fallacy",
+      "attack" : [
+        {
+        "punch" : "1",
+        "reason" : "2",
+        "logic" : "3"
+        }
+      ]
+  },
+  {
+      "name" : "publisher",
+      "health" : "10",
+      "status" : "normal",
+      "vulnerable" : "logic",
+      "attack" : [
+        {
+        "ignore" : "1",
+        "historical fallacy" : "2",
+        "argument to moderation"  : "3",
+        "existential fallacy" : "4"
+        }
+      ]
+  },
+  {
+      "name" : "master.student",
+      "health" : "10",
+      "status" : "normal",
+      "vulnerable" : "ignore",
+      "attack" : [
+        {
+        "point" : "1",
+        "stare" : "2",
+        "question" : "3"
+        }
+      ]
+  },
+    {
+      "name" : "phd.candidate",
+      "health" : "10",
+      "status" : "normal",
+      "vulnerable" : "ignore",
+      "attack" : [
+        {
+        "punch" : "1",
+        "social" : "2",
+        "experiment" : "3",
+        "burnout" : "4"
+        }
+      ]
+  },
+    {
+      "name" : "postdoc",
+      "health" : "10",
+      "status" : "normal",
+      "vulnerable" : "ignore",
+      "attack" : [
+        {
+        "grumpy" : "1",
+        "salty" : "2",
+        "toxic" : "3",
+        "experiment" : "4"
+        }
+      ]
+  },
+    {
+      "name" : "pi",
+      "health" : "10",
+      "status" : "normal",
+      "vulnerable" : "ignore",
+      "attack" : [
+        {
+        "yawn" : "1",
+        "deadline" : "2",
+        "arrogance" : "3",
+        "ultimatum" : "4"
+        }
+      ]
+  },
+    {
+      "name" : "technician",
+      "health" : "10",
+      "status" : "normal",
+      "vulnerable" : "ignore",
+      "attack" : [
+        {
+        "smile" : "5",
+        "concern" : "5",
+        "understand" : "5",
+        "expertise" : "5"
+        }
+      ]
+  },
+    {
+      "name" : "data.steward",
+      "health" : "10",
+      "status" : "normal",
+      "vulnerable" : "ignore",
+      "attack" : [
+        {
+        "fair" : "1",
+        "advise" : "2",
+        "argue" : "3",
+        "shame" : "4"
+        }
+      ]
+  },
+    {
+      "name" : "bioinformatician",
+      "health" : "10",
+      "status" : "normal",
+      "vulnerable" : "ignore",
+      "attack" : [
+        {
+        "heatmap" : "1",
+        "ctrl+z" : "1",
+        "syntax error" : "1",
+        "forbidden code" : "7"
+        }
+      ]
+  },
+    {
+      "name" : "reviewer2",
+      "health" : "10",
+      "status" : "normal",
+      "vulnerable" : "ignore",
+      "attack" : [
+        {
+        "comment" : "1",
+        "cherry picking" : "2",
+        "request more data" : "3",
+        "red herring" : "4"
+        }
+      ]
+  },
+   {
+      "name" : "rival",
+      "health" : "10",
+      "status" : "normal",
+      "vulnerable" : "ignore",
+      "attack" : [
+        {
+        "interrupt" : "1",
+        "affirming the consequent" : "2",
+        "circular reasoning" : "3",
+        "scoop" : "4"
+        }
+      ]
+  },
+   {
+      "name" : "funder",
+      "health" : "10",
+      "status" : "normal",
+      "vulnerable" : "ignore",
+      "attack" : [
+        {
+        "false dilemma" : "1",
+        "kettle logic" : "1",
+        "nirvana fallacy" : "4",
+        "begging the question" : "4"
+        }
+      ]
+  }
+
+]
+
