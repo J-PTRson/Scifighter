@@ -84,7 +84,7 @@ encounter <- function(foe,hero) {
       a.msg <- paste0("Your attack did a whopping ", a.dmg, " dmg! Your opponnents remaining HP is: ", f.hp)
       print(a.msg)
       beepr::beep(7)
-      Sys.sleep(0.1)
+      Sys.sleep(1)
       create_scene(foe,hero,menu,f.hp,h.hp)
       #break
       Sys.sleep(1.5)
@@ -104,7 +104,7 @@ encounter <- function(foe,hero) {
       h.hp <- as.integer(get_stats(hero)[[2]])
       create_scene(foe,hero,menu,f.hp,h.hp)
       beepr::beep(5)
-      Sys.sleep(0.1)
+      Sys.sleep(1)
       #break
       Sys.sleep(1.5)
       counter <- turnend(foe,f.hp) #initiate opponents turn
@@ -125,7 +125,7 @@ encounter <- function(foe,hero) {
       }
       #todo add status clearing
       beepr::beep(2)
-      Sys.sleep(0.1)
+      Sys.sleep(1)
       create_scene(foe,hero,menu,f.hp,h.hp)
       #break
       Sys.sleep(1.5)
@@ -144,7 +144,7 @@ encounter <- function(foe,hero) {
       w.msg <- paste0("You've succesfully defeated: ", toupper(foe))
       print(w.msg)
       beepr::beep(8)
-      Sys.sleep(0.1)
+      Sys.sleep(1)
       #break
       Sys.sleep(1.5)
       end_scene(hero)
@@ -155,7 +155,7 @@ encounter <- function(foe,hero) {
       #break
       Sys.sleep(1.5)
       beepr::beep(3)
-      Sys.sleep(0.1)
+      Sys.sleep(1)
       end_scene(foe)
     }else {
       #AI turn
@@ -172,7 +172,7 @@ encounter <- function(foe,hero) {
       #break
       Sys.sleep(1.5)
       beepr::beep(9)
-      Sys.sleep(0.1)
+      Sys.sleep(5)
       create_scene(foe,hero,menu,f.hp,h.hp)
     }
 
@@ -184,7 +184,7 @@ encounter <- function(foe,hero) {
       #break
       Sys.sleep(1.5)
       beepr::beep(3)
-      Sys.sleep(0.1)
+      Sys.sleep(3)
       end_scene(foe)
     }
   }
