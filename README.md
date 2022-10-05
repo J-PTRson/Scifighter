@@ -4,7 +4,7 @@ This package is the result of me experimenting with R packages during the "Repro
 
 Scifighter is a science battle game which runs inside your IDE (rstudio) inspired by pokemon. 
 
-[]!(inst/extdata/img/example/example_img.png)
+![](inst/extdata/img/example/example_img.png)
 
 ## Install
 
