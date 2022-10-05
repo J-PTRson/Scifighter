@@ -4,12 +4,14 @@
 \alias{encounter}
 \title{encounter}
 \usage{
-encounter(foe, hero)
+encounter(foe, hero, nosound = NULL)
 }
 \arguments{
 \item{foe}{opponent entity}
 
 \item{hero}{player entity}
+
+\item{nosound}{optional, Set this to TRUE to disable sound.}
 }
 \value{
 This function returns the match results

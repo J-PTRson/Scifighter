@@ -4,7 +4,10 @@
 \alias{gamestart}
 \title{gamestart}
 \usage{
-gamestart()
+gamestart(nosound = NULL)
+}
+\arguments{
+\item{nosound}{optional, in case of sound issue set this to true.}
 }
 \value{
 Nothing
