@@ -1,0 +1,43 @@
+---
+title: "Scifighter_vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Scifighter_vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This package is the result of me experimenting with R packages during the "Reproducible Research with R Packages" course provided by the eScience Center Digital Skills Programme.
+
+Scifighter is a science battle game which runs inside your IDE (rstudio) inspired by pokemon. 
+
+## Basic usage
+
+Load the package using:
+
+```{r setup}
+library(Scifighter)
+```
+
+
+Once you have loaded the library run the following command to start the game:
+
+```r
+gamestart()
+```
+
+If you're having audio issues, then you can disable sound using:
+
+```r
+gamestart(nosound=TRUE)
+```
+
+
+Have fun!

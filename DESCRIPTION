@@ -9,6 +9,8 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 RoxygenNote: 7.2.1
@@ -18,3 +20,4 @@ Imports:
     grid (>= 4.0.4),
     jsonlite (>= 1.8.0),
     png (>= 0.1.7)
+VignetteBuilder: knitr
