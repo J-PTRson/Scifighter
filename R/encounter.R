@@ -144,7 +144,7 @@ encounter <- function(foe,hero) {
       w.msg <- paste0("You've succesfully defeated: ", toupper(foe))
       print(w.msg)
       beepr::beep(8)
-      Sys.sleep(1)
+      Sys.sleep(5)
       #break
       Sys.sleep(1.5)
       end_scene(hero)
@@ -172,7 +172,7 @@ encounter <- function(foe,hero) {
       #break
       Sys.sleep(1.5)
       beepr::beep(9)
-      Sys.sleep(5)
+      Sys.sleep(1)
       create_scene(foe,hero,menu,f.hp,h.hp)
     }
 
