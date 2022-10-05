@@ -23,7 +23,7 @@ gamestart <- function() {
     s.choice <- opt_menu(s.opt)
     hero <- tolower(s.choice)
     beepr::beep(6)
-    Sys.sleep(0.1)
+    Sys.sleep(1)
 
     possible_enemies <- c("publisher","funder","rival","reviewer2")
     #Free for all
